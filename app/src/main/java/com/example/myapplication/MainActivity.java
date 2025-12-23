@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         TextView tekstas = findViewById(R.id.Tekstas);
         Button mygtukas = findViewById(R.id.btnPirmas);
         Button mygtukasSpalva = findViewById(R.id.btnAntras);
+        Button mygtukasFonas = findViewById(R.id.btnTrecias); // ČIA NAUJAS
 
         mygtukas.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 tekstas.setTextColor(android.graphics.Color.RED);
+            }
+        });
+
+        mygtukasFonas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tekstas.setBackgroundColor(android.graphics.Color.YELLOW);
             }
         });
     }
