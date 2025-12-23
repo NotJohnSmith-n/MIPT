@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 tekstas.setBackgroundColor(android.graphics.Color.YELLOW);
             }
         });
-        //Comment for reverrt.
+        //Comment for revert
     }
 }
