@@ -15,11 +15,19 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tekstas = findViewById(R.id.Tekstas);
         Button mygtukas = findViewById(R.id.btnPirmas);
+        Button mygtukasSpalva = findViewById(R.id.btnAntras);
 
         mygtukas.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tekstas.setText("Tekstas");
+                tekstas.setText("Pavyko!");
+            }
+        });
+
+        mygtukasSpalva.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tekstas.setTextColor(android.graphics.Color.RED);
             }
         });
     }

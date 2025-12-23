@@ -20,9 +20,18 @@
         android:id="@+id/btnPirmas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pateik teksta"
+        android:text="Pateik tekstą"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Tekstas" />
+
+    <Button
+        android:id="@+id/btnAntras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pakeisk spalvą"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPirmas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
